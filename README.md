@@ -1,1 +1,139 @@
-# site-2
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Batman Lego</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="infoHeader">
+            <h1 class="titulo"> Batman Lego</h1>
+            <nav>
+                <a href="https://www.lego.com/pt-pt">Lego</a>
+                <a
+                    href="https://www.lego.com/pt-pt/product/lego-batman-legacy-of-the-dark-knight-playstation-5-5010485">Jogo</a>
+                <a href="https://www.lego.com/pt-pt/product/batman-logo-76330">Logo do Batman</a>
+            </nav>
+
+        </div>
+        <div><img class="capa" src="https://www.slashfilm.com/wp/wp-content/images/Lego-Batman1.jpg" alt=""></div>
+    </header>
+    <main>
+        <section class="introducao">
+            <h2>Introdução</h2>
+            <p>LEGO Batman: Legacy of the Dark Knight é um jogo de ação e aventura que explora a trajetória de Batman
+                desde sua infância até se tornar o vigilante de Gotham City. O jogo é desenvolvido pela TT Games e
+                apresenta um mundo aberto repleto de referências a filmes e séries do universo Batman, incluindo vilões
+                icônicos como o Pinguim e o Coringa. O jogo foi lançado em 22 de maio de 2026 e é elogiado por sua
+                narrativa divertida e mecânicas de combate refinadas, sendo o jogo mais bem avaliado da franquia LEGO
+                até agora. </p>
+
+        </section>
+
+        <section class="viloes">
+            <div class="quad">
+                <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2025/08/lego-batman-legacy-of-the-dark-knight-joker.jpg?q=49&fit=crop&w=825&dpr=2" alt="">
+                <p> Origem misteriosa — talvez um comediante falido, talvez um criminoso comum. Após cair num
+                    tanque de ácido, emergiu desfigurado e completamente insano. Tornou-se o símbolo do caos puro,
+                    obcecado
+                    em provar que qualquer pessoa pode perder a sanidade em um dia ruim. Nemesis eterno do Batman.</p>
+            </div>
+            <div class="quad">
+                <img src="https://i.ytimg.com/vi/Iyij5kMBv2Q/maxresdefault.jpg" alt="">
+                 <p> Cientista brilhante que tentava salvar sua esposa Nora de uma doença terminal. Quando o
+                    experimento foi sabotado, sofreu um acidente que o transformou: seu corpo só sobrevive a
+                    temperaturas extremamente baixas. Usa uma armadura criogênica para roubar e financiar a cura de
+                    Nora. </p>
+            </div>
+            <div class="quad">
+                <img src="https://i.ytimg.com/vi/TU6sinbhdtQ/hqdefault.jpg" alt="">
+                <p> Gênio com um transtorno compulsivo: é incapaz de cometer crimes sem deixar pistas na
+                    forma de enigmas. Frustrado por nunca ser reconhecido como o homem mais inteligente do mundo,
+                    desafia Batman repetidamente — e paradoxalmente entrega sua própria captura por vaidade.</p>
+            </div>
+           
+          
+        </section>
+    </main>
+    <footer>
+        <p>Criado por: Professor Nilson Rosa</p>
+    </footer>
+
+</body>
+
+</html>
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #94C8D8;
+    height: 100%;
+}
+
+.capa {
+    width: 100%;
+    object-fit: cover;
+    height: 400px; /* mudar */
+
+}
+
+.infoHeader{
+    padding-top: 15px;
+    background-color: black;
+}
+
+.titulo {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+nav {
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: nome;
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bold;  
+}
+
+nav a:hover{
+    color: rgb(26, 36, 179);
+}
+
+.introducao h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.introducao p {
+    text-align: center;
+    font-size: 20px;
+    margin-left: 25px;
+    margin-right: 20px;
+}
+
+.viloes {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 40px;
+    font-size: 20px;
+    gap: 5px;
+    background-color: #464544;
+}
+. quad {
+    flex: 1;
+    paddie: 45px;
+    
+}
