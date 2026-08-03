@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #1a2a6c; /* Um azul escuro celestial e profundo */
+    background-color: #e7e78b; /* Um azul escuro celestial e profundo */
     height: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -89,7 +89,7 @@ nav a:hover{
 .quad{
     flex: 1;
     padding: 30px; /* Reduzido levemente para evitar quebras bruscas no hover */
-    background-color: #0d9cfb; /* Azul clássico mitológico */
+    background-color: #f0c30d; /* Azul clássico mitológico */
     color: #ffffff;
     border: 4px solid #f1c40f; /* Borda dourada */
     border-radius: 30px;
@@ -112,7 +112,7 @@ nav a:hover{
 .quad:hover{
     padding: 45px; /* Efeito de expansão controlado */
     background-color: #fbe207; /* Fundo escuro */
-    color: #f36363; /* Texto muda para Aqua */
+    color: #f1de07; /* Texto muda para Aqua */
     border: 4px solid #e7d803; /* Borda muda para Aqua */
     cursor: pointer;
 }
