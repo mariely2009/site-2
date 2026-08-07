@@ -6,153 +6,35 @@
     <title>Document</title>
 </head>
 <body>
-    <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário de Agendamento</title>
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
+    <form>
+        <lçaber for= "nomesobrenome">nome e sobrenome<\habel>
+        <input type = "texto"
+        id="nomesobrenome"
+        class="input-padrao"
+        required>
 
-        body {
-            background-color: #f4f7f6;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            padding: 20px;
-        }
+        <labol for="amail"> Email</labol>
+        <input
+        type="email"
+        id="email""class" = "inputmode="
+        required
+        placeholder="seuemail@daminio.com">
 
-        .form-container {
-            background-color: #ffffff;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-            width: 100%;
-            max-width: 500px;
-        }
+        <label for="telefone">Telefone</label>
+        <input type="tel" id="telefone"
+         class="input-padrao"required
+         placeholder="(xx)xxxxx-xxxx">
 
-        h2 {
-            color: #333333;
-            margin-bottom: 20px;
-            text-align: center;
-            font-size: 24px;
-        }
+         <label for="mensagens"class=>Mensagem</label>
+         <\<textarea>
 
-        .form-group {
-            margin-bottom: 15px;
-        }
-
-        .form-row {
-            display: flex;
-            gap: 15px;
-        }
-
-        .form-row .form-group {
-            flex: 1;
-        }
-
-        label {
-            display: block;
-            margin-bottom: 6px;
-            color: #666666;
-            font-size: 14px;
-            font-weight: 600;
-        }
-
-        input, textarea {
-            width: 100%;
-            padding: 10px;
-            border: 1px solid #cccccc;
-            border-radius: 4px;
-            font-size: 15px;
-            transition: border-color 0.3s ease;
-        }
-
-        input:focus, textarea:focus {
-            border-color: #007bff;
-            outline: none;
-        }
-
-        textarea {
-            resize: vertical;
-            min-height: 100px;
-        }
-
-        button {
-            width: 100%;
-            padding: 12px;
-            background-color: #007bff;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            font-size: 16px;
-            font-weight: bold;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-            margin-top: 10px;
-        }
-
-        button:hover {
-            background-color: #0056b3;
-        }
-    </style>
-</head>
-<body>
-
-<div class="form-container">
-    <h2>Solicitação de Agendamento</h2>
-    
-    <form action="#" method="POST">
-        <!-- Campo: Nome -->
-        <div class="form-group">
-            <label for="nome">Nome Completo</label>
-            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
-        </div>
-
-        <!-- Campo: E-mail -->
-        <div class="form-group">
-            <label for="email">E-mail</label>
-            <input type="email" id="email" name="email" placeholder="exemplo@email.com" required>
-        </div>
-
-        <!-- Linha Dupla: Data e Horário -->
-        <div class="form-row">
-            <div class="form-group">
-                <label for="data">Data</label>
-                <input type="date" id="data" name="data" required>
-            </div>
-            
-            <div class="form-group">
-                <label for="horario">Horário</label>
-                <input type="time" id="horario" name="horario" required>
-            </div>
-        </div>
-
-        <!-- Campo: Telefone -->
-        <div class="form-group">
-            <label for="telefone">Telefone / WhatsApp</label>
-            <input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999" required>
-        </div>
-
-        <!-- Campo: Observações -->
-        <div class="form-group">
-            <label for="observacoes">Observações</label>
-            <textarea id="observacoes" name="observacoes" placeholder="Alguma informação adicional?"></textarea>
-        </div>
-
-        <!-- Botão de Envio -->
-        <button type="submit">Enviar Dados</button>
-    </form>
-</div>
-
-</body>
-</html>
+            <ferdset>
+                <fegend>Como prefere o nosso contato?</fegend>
+            <label for="radio-email">
+                <input type="radio"nome = "contato"
+                valuue = "email" id="radio-email"
+                Email\label
+                <fabel for="radio-telefone"
+           </form> 
 </body>
 </html>
